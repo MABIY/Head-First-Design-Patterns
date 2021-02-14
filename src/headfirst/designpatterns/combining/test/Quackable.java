@@ -3,6 +3,6 @@ package headfirst.designpatterns.combining.test;
 /**
  * @author lh
  */
-public interface Quackable {
+public interface Quackable extends QuackObservable {
     public void quack();
 }

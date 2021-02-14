@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e963fd0f-f351-4d7f-b9e6-82994183b721" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/AbstractDuckFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/CountingQuckFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Flock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Goose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/GooseAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/QuackCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Quackable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/RedheadDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/QuackObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Quackologist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Flock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Flock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/GooseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/GooseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/QuackCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/QuackCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Quackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Quackable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/RedheadDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/RubberDuck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +85,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="1oSNnhkTH3roYCPcOgQHo3vk3yo" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -150,11 +142,17 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="prop_add_unversioned_files" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.27281192" />
   </component>
   <component name="RecentsManager">
@@ -243,6 +241,8 @@
       <updated>1486181598714</updated>
       <workItem from="1486181603009" duration="4231000" />
       <workItem from="1486278489323" duration="590000" />
+      <workItem from="1613276214285" duration="2415000" />
+      <workItem from="1613292922781" duration="1709000" />
     </task>
     <servers />
   </component>
@@ -287,6 +287,9 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
