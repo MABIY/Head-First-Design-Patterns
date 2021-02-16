@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e963fd0f-f351-4d7f-b9e6-82994183b721" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/QuackObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Quackologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test2/BeatModelInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/BPMObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/BeatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/BeatModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/BeatModelInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/BeatObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/ControllerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/DJTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/DJView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/HeartAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/HeartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/HeartModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/HeartModelInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test3/HeartTestDrive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/DuckSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Flock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Flock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/GooseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/GooseAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/QuackCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/QuackCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Quackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/Quackable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/RedheadDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/combining/test/RubberDuck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,16 +152,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="prop_add_unversioned_files" value="true" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.27281192" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="headfirst.designpatterns.combining.test3" />
       <recent name="headfirst.designpatterns.combining.test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DJTestDrive">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -169,6 +172,20 @@
       <module />
       <method />
     </configuration>
+    <configuration name="DJTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst.designpatterns.combining.test3.DJTestDrive" />
+      <module name="Head-First-Design-Patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst.designpatterns.combining.test3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirst.designpatterns.combining.test.DuckSimulator" />
       <module name="Head-First-Design-Patterns" />
@@ -176,6 +193,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="headfirst.designpatterns.combining.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeartTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst.designpatterns.combining.test3.HeartTestDrive" />
+      <module name="Head-First-Design-Patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst.designpatterns.combining.test3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,6 +258,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DJTestDrive" />
+        <item itemvalue="Application.HeartTestDrive" />
         <item itemvalue="Application.DuckSimulator" />
       </list>
     </recent_temporary>
@@ -242,7 +275,8 @@
       <workItem from="1486181603009" duration="4231000" />
       <workItem from="1486278489323" duration="590000" />
       <workItem from="1613276214285" duration="2415000" />
-      <workItem from="1613292922781" duration="1709000" />
+      <workItem from="1613292922781" duration="2647000" />
+      <workItem from="1613462513781" duration="6435000" />
     </task>
     <servers />
   </component>
